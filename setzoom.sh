@@ -8,7 +8,8 @@ if [ $(grep -c "$DEFAULT_STEAM_CLIENT_PATH") -eq 0 ]; then
         *) sed -i 's/1134/1200/' "$DEFAULT_STEAM_CLIENT_PATH" ;;
     esac
 else
-    echo "Zoom was already set, "
+    echo "Zoom was already set"
+fi
 
 #  nexor  …  game  dota  bin  linuxsteamrt64  cat libclient.so |grep 1134
 # Binary file (standard input) matches
